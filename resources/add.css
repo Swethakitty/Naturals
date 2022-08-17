@@ -1,0 +1,89 @@
+body {
+    font-family: 'Barlow';font-size: 22px;
+    background-image:linear-gradient(rgba(53,46,45,0.7),rgba(0,0,0,0.7)),url(../img/bg1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+   background-repeat: no-repeat;  
+    background-size: cover;
+    }
+    
+  .navbar {
+      overflow: hidden;
+      background-color:black;
+      margin-top: -1%;  
+      padding-left: 7%;
+      padding-right: 5%;
+      margin-left: -1%;
+      margin-right:-1%
+    }
+    
+    .navbar a {
+      float: left;
+      font-size: 22px;
+      color:white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+    
+    .dropdown .dropbtn {
+      font-size: 22px;  
+      border: none;
+      outline: none;
+      color:whitesmoke;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+    
+    .navbar a:hover, .dropdown:hover .dropbtn {
+      background-color:grey;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color:black;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      float: none;
+      color:white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .dropdown-content a:hover {
+      background-color:black;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .search_bar
+    {
+    
+      text-align: right;
+      margin-top:1%;
+    }
+    .downnav{
+      overflow: hidden;
+      background-color:black;
+      margin-top:0%;
+      padding-left: 5%;
+      padding-right: 5%;
+      margin-left: -1%;
+      margin-right:-1%
+    }

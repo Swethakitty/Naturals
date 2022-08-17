@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Naturals</title>
+      <link rel="stylesheet" type ="text/css" href="../resources/css/style.css">
+      <link rel="stylesheet" type="text/css"  href="../vendors/grid.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;1,500&display=swap" rel="stylesheet">
+      <script></script>
+   </head>
+   <body>
+      <div class="navbar">
+         <a href="">Home</a>
+         <a href="product.html">Products</a>
+         <div class="dropdown">
+            <button class="dropbtn">Services 
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+               <a href="skincare.html">Skin Care</a>
+               <a href="bodycare.html">Body Care</a>
+               <a href="haircare.html">Hair Care</a>
+            </div>
+         </div>
+         <div>
+            <a href="signup.html">Signup
+            <a>
+         </div>
+         <div class="search_bar">
+            <form>
+               <input type="text" placeholder="Search...">
+               <button type="submit">Go</button>
+            </form>
+         </div>
+      </div>
+      <div class="downnav">
+         <hr>
+         <p style="float: right;color: aliceblue;font-size: 22px;">Customer care:97911905555</p>
+      </div>
+      <div class="slogan">
+         <h1>
+            <span>"Gorgeous hair is the best revenge"</span>
+         </h1>
+      </div>
+      <section>
+         <!-- About Section -->
+         <div class="row " id="about" style="padding: 64px;">
+            <div class="col" style="padding: large;">
+               <img src="../resources/img/model 2d.png" class="model image" alt="image" width="600" height="750">
+            </div>
+            <div class="content" style="padding:64px ;">
+               <h2 class="center">ABOUT US</h2>
+               <br>
+               <p class="large"> 
+               <p class="model">From 1 salon to over 600 salons across India, all it took was one woman’s passion. This drove Naturals to become India’s No.1 hair and beauty salon.
+                  At Naturals, we believe in financial independence for women and have empowered 300+ women to become entrepreneurs in the past 16 years. Our dream is to create a housewife-free India, where women are encouraged to earn their living by pursuing their passion. By 2020, Naturals aims to create 1000 salons, empower 1000 women entrepreneurs and create 50,000 jobs, because there is no better style statement than standing on your own feet.
+               </p>
+               </p>
+            </div>
+         </div>
+         <hr>
+      </section>
+      <!-- about section -->
+      <title>Reviews</title>
+      <link rel='stylesheet' type='text/css' media='screen' href=''>
+      </head>
+      <body>
+         <div class="rev-section">
+            <h3 class="title">Our Guests Love Us</h3>
+            <p class="note">"A women who cuts her hair is about to change her life".</p>
+            <div class="reviews">
+               <div class="review">
+                  <div class="head-review">
+                     <img src="../resources/img/jk.jpg" width="250px">
+                  </div>
+                  <div class="body-review">
+                     <div class="name-review">Jungkook</div>
+                     <div class="place-review">San francisco</div>
+                     <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                     </div>
+                     <div class="desc-review">The team at Naturals are amazing! So friendly and welcoming and above all, so talented! I always come out smiling!The staff are lovely. </div>
+                  </div>
+               </div>
+               <div class="review">
+                  <div class="head-review">
+                     <img src="../resources/img/wen peng.jpg" width="250px">
+                  </div>
+                  <div class="body-review">
+                     <div class="name-review">Wen peng</div>
+                     <div class="place-review">Paris</div>
+                     <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     </div>
+                     <div class="desc-review">This hairdressers is great. I decided to change hairdressers back in the summer and they helped me go to a lovely platinum blonde. </div>
+                  </div>
+               </div>
+               <div class="review">
+                  <div class="head-review">
+                     <img src="../resources/img/v face.jpeg" width="250px">
+                  </div>
+                  <div class="body-review">
+                     <div class="name-review">Kim taehyung</div>
+                     <div class="place-review">Korea</div>
+                     <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                     </div>
+                     <div class="desc-review">Lovely salon, super friendly people. Will definitely go back again ! Had my hair done by Lucy, amazing customer service. </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         </section>
+         <section>
+            </section>
+            <body></html>
+            <script>
+               function valid_form() {
+            
+                  var name_v = document.getElementById("name").value;
+                  var number_v = document.getElementById("number").value;
+                  var email_v = document.getElementById("email").value;
+                  var membership_v = document.getElementById("membership").value;
+            
+            
+            
+                  var name_regexp=/^[a-z]{5,10}$/;
+                  
+                  if(name_regexp.test(name_v)) {
+                      
+              
+                      document.getElementById("name_label").innerHTML="<span style='color:green'> valid </span>";
+                      
+                      document.getElementById("name_label").style.visibility="visible";
+                  }
+                  else{
+                      
+                     
+                     document.getElementById("name_label").innerHTML="<span style='color:red'> please enter above 5 letters </span>";
+                      document.getElementById("name_label").style.visibility="visible"
+                  }
+            
+                  var number_regexp=/^[7-9]\d{9}$/;
+            
+                  if(number_regexp.test(number_v)) {
+                      
+              
+                      document.getElementById("number_label").innerHTML="<span style='color:green'> valid </span>";
+                      
+                      document.getElementById("number_label").style.visibility="visible";
+                  }
+                  else{
+                      
+                     
+                     document.getElementById("number_label").innerHTML="<span style='color:red'> please enter your valid number </span>";
+                      document.getElementById("number_label").style.visibility="visible"
+                  }
+            
+            
+            
+                  var email_regexp=/^([a-z0-9\+\-]+)(\.[a-z0-9\+\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,6}$/;
+            
+                  if(email_regexp.test(email_v)) {
+                     
+            
+                     document.getElementById("email_label").innerHTML="<span style='color:green'> Valid </span>";
+                     
+                     document.getElementById("email_label").style.visibility="visible";
+                  }
+                  else{
+                     
+                  
+                     document.getElementById("email_label").innerHTML="<span style='color:red'> please enter valid email</span>";
+                     document.getElementById("email_label").style.visibility="visible"
+                  }
+            
+                 
+                  var membership;
+            
+                  if(membership) {
+                     
+                     alert("#")
+            
+                     
+                  }
+                  else{
+                     
+                     alert("membership plan will automatically selected")
+                  
+                     
+                  }  
+                  
+            
+            
+            
+            
+               }
+            </script>
